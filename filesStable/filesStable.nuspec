@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>files</id>
-    <version>4.2.3</version>
+    <version>4.2.7</version>
     <dependencies>
       <dependency id="dotnet-10.0-runtime"/>
     </dependencies>
@@ -14,7 +14,7 @@
     <projectUrl>https://files.community</projectUrl>
     <iconUrl>http://rawcdn.githack.com/Josh65-2201/chocolatey-pkgs/master/filesStable/icon.png</iconUrl>
     <copyright>2018 - present Files Community</copyright>
-    <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE-MIT</licenseUrl>
+    <licenseUrl>https://github.com/files-community/Files/blob/main/LICENSE-MPL</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/files-community/Files</projectSourceUrl>
     <docsUrl>https://files.community/docs</docsUrl>
@@ -40,6 +40,5 @@ Looking for a place to start? Check out the [task board](https://github.com/orgs
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />
   </files>
 </package>
